@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     botton: 0,
     backgroundColor: "#fff",
     alignItems: "center",
-    marginTop: 20,
+    // marginTop: 20,
     paddingTop: 5,
     borderTopLeftRadius: 30,
     borderTopRightRadius: 30,
@@ -51,6 +51,24 @@ const styles = StyleSheet.create({
     color: "red",
     fontWeight: "bold",
     paddingLeft: 20,
+  },
+  exhibitionResultImc: {
+    width: "100%",
+    height: "50%",
+  },
+  listImcs: {
+    marginTop: 20,
+  },
+  resultImcItem: {
+    fontSize: 24,
+    color: "red",
+    height: 50,
+    width: "100%",
+    paddingRight: 20,
+  },
+  textResultItemList: {
+    color: "red",
+    fontSize: 16,
   },
 });
 
